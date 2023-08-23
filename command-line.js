@@ -29,7 +29,7 @@ function processFileSync(filepath) {
     // printing the buffer returned by fs.readFileSync with console.log will output a stringified buffer with the file content.
     // console.log(contents);
 
-    // printing the buffer returned by fs.readFileSync with process.stdout.write will output the actual text content as it convert the buffer content to utf-8 text by default.
+    // printing the buffer returned by fs.readFileSync with process.stdout.write will output the actual text content as it converts the buffer content to utf-8 text by default.
     // process.stdout.write(contents)
 
     process.stdout.write(contents)

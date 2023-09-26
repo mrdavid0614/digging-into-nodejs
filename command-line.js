@@ -17,7 +17,7 @@ else if (args.file) {
     processFile(path.resolve(args.file))
 }
 else {
-    error(msg, true);
+    error('Error', true);
 }
 
 function processFileSync(filepath) {
